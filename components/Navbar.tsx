@@ -30,7 +30,6 @@ const Navbar = () => {
 
         <div className="flex items-center">
           <ModeToggle />
-          {/* <Link href="/login">Login</Link> */}
         </div>
       </nav>
       <div className="md:hidden fixed bottom-0 left-0 right-0 h-16 bg-card z-40 flex items-center p-2">
@@ -49,7 +48,7 @@ const Navbar = () => {
           </Link>
 
           <Link
-            href="#airTicket"
+            href="#destination"
             className="flex flex-col items-center space-y-2 p-2"
           >
             <GiAirplaneDeparture className="text-lg text-muted-foreground" />
